@@ -1,7 +1,7 @@
 // Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateHTML = require('./utils/generateHTML')
+const generateHTML = require('./src/generateHTML')
 const util = require('util')
 const writeFileAsync = util.promisify(fs.writeFile);
 
