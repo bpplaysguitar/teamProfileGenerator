@@ -1,0 +1,27 @@
+{
+  "name": "teamprofilegenerator",
+  "version": "1.0.0",
+  "description": "This application generates an HTML webpage that displays team members' information based on command line inputs.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "inquirer": "^8.1.1",
+    "jest": "^27.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bpplaysguitar/teamProfileGenerator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bpplaysguitar/teamProfileGenerator/issues"
+  },
+  "homepage": "https://github.com/bpplaysguitar/teamProfileGenerator#readme"
+}
