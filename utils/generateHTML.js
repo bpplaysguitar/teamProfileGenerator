@@ -1,27 +1,24 @@
 // TODO: Create a function to generate markdown for README
 function generateHTML(data) {
 
-  let license = data.license;
-  let licenseLink = license;
-  let licenseBadge;
+  let whatNext = data.whatNext;
 
-  switch (licenseLink) {
-    case 'Apache License 2.0':
-      licenseLink = `<a href="https://choosealicense.com/licenses/apache-2.0/">Read about the Apache License 2.0</a>`;
-      licenseBadge = ``
+  switch (whatNext) {
+    case 'Add an engineer':
+      whatNext = `engineer`;
       break;
 
-    case 'GNU General Public License v3.0':
-      licenseLink = `<a href="https://choosealicense.com/licenses/gpl-3.0/">Read about the GNU General Public License v3.0 license</a>`;
-      licenseBadge = `Apache%202.0`
+    case 'Add an intern':
+      whatNext = `intern`;
       break;
 
-    case 'MIT License':
-      licenseLink = `<a href="https://opensource.org/licenses/MIT">Read about the MIT License</a>`;
-      licenseBadge = `MIT`
+    case 'Finish building team':
+      whatNext = `finish`;
       break; 
       }
 
+
+    console.log(whatNext);
 
   return `
   <!DOCTYPE html>
