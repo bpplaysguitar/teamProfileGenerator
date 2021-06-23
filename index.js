@@ -2,9 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generate = require('./src/generateHTML')
-// const util = require('util');
 const create = require('./src/generateEmployee');
-// const writeFileAsync = util.promisify(fs.writeFile);
 let employeeData = ``;
 
 
@@ -36,13 +34,6 @@ const managerPrompt =
     choices: ['Continue', 'Stop'],
     name: 'conStop'
   },
-  // delete if melody's way works
-  // {
-  //   type: 'list',
-  //   message: 'Team manager added. What would you like to do next?',
-  //   choices: ['Add an engineer', 'Add an intern', 'Finish building team'],
-  //   name: 'managerWhatNext'
-  // }, 
 ];
 
 const employeePrompt = [
@@ -57,7 +48,7 @@ const employeePrompt = [
       name: 'name',
   },
   {
-      message: "Please enter employee ID",
+      message: "Please enter employee ID.",
       name: 'id',
   },
   {
@@ -65,7 +56,7 @@ const employeePrompt = [
       name: 'email',
   },
   {
-      message: "Please enter employee GitHub username",
+      message: "Please enter employee GitHub username.",
       name: 'github',
       when(data) {
           return data.role === 'Engineer';
@@ -109,11 +100,6 @@ function init() {
   })
 
 }
-    // commented out for melody's way
-      // .then((response) => writeFileAsync('./demo/index.html', generateHTML(response)))
-      // .then(() => console.log('Successfully wrote to index.html'))
-      // .catch((err) => console.error(err));
-      // }
 
       function employeeFunction() {
         inquirer.prompt(employeePrompt).then((res) => {

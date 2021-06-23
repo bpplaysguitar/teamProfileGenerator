@@ -14,9 +14,9 @@ function HTML(data) {
   </head>
   <body>
 
-  <section class="hero is-danger">
+  <section class="hero">
     <div class="hero-body">
-       <h1 class="title">My Team</h1>
+       <h1 class="title">Bluth Bananas Team Members</h1>
     </div>
   </section>
   <main class="container">
