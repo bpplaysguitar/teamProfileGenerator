@@ -59,6 +59,8 @@ git clone https://github.com/bpplaysguitar/teamProfileGenerator.git,
 ## Usage
 Video of application in use
 ![teamProfileGenerator](https://drive.google.com/file/d/1321lo9jdDESyWruCeNHjcHoGP34CW7We/view?usp=sharing)
+
+[![Team Profile Generator]({./images/screenshot.png})]({https://drive.google.com/file/d/1321lo9jdDESyWruCeNHjcHoGP34CW7We/view?usp=sharing} "Team Profile Generator Walkthrough")
       
       
 ## Credits
