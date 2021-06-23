@@ -59,7 +59,7 @@ git clone https://github.com/bpplaysguitar/teamProfileGenerator.git,
 ## Usage
 Video of application in use
 
-[![SC2 Video](https://img.youtube.com/vi/--b-9HrKK6w/0.jpg)](https://drive.google.com/file/d/1321lo9jdDESyWruCeNHjcHoGP34CW7We)
+[![teamProfileGenerator](https://drive.google.com/file/d/1eiCGoFwITTubD4DIDvLHDy0CLsAW8-v8/view?usp=sharing)](https://drive.google.com/file/d/1321lo9jdDESyWruCeNHjcHoGP34CW7We)
       
 ## Credits
 Professional README guide template provided by Coding Boot Camp. https://github.com/coding-boot-camp
