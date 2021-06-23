@@ -58,7 +58,7 @@ git clone https://github.com/bpplaysguitar/teamProfileGenerator.git,
 
 ## Usage
 Screenshot and video of application in use
-![teamProfileGenerator](/images/teamProfileGenerator.png)
+![teamProfileGenerator](/images/teamProfileGenerator.gif)
 <a href="https://drive.google.com/file/d/1321lo9jdDESyWruCeNHjcHoGP34CW7We">Watch Walkthrough Video</a>
 
       
