@@ -47,7 +47,7 @@ function employee(data) {
                       ID: ${newEmployee.getId()}
                   </li>
                   <li>
-                      Email: <a href = "mailto: ${newEmployee.getEmail()}">${newEmployee.getEmail()}</a>
+                      Email: <br> <a href = "mailto: ${newEmployee.getEmail()}">${newEmployee.getEmail()}</a>
                   </li>
                   <li>
                       ${additionalLabel}: ${additionalMethod}

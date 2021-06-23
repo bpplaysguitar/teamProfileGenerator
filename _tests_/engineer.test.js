@@ -42,7 +42,7 @@ describe("Engineer", () => {
       const testValue = "maebyFunke"
       const newEngineer = new Engineer("Maeby", "10", "maeby@bluthbananas.com", testValue);
 
-      expect(newEngineer.getGithub()).toEqual(testValue);
+      expect(newEngineer.getGithub()).toEqual(`<a href="https://github.com/${testValue}" target="_blank">${testValue}</a>`);
     });
   });
 
