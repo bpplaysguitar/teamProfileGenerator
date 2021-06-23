@@ -30,7 +30,7 @@ brianpalay@gmail.com
 
 
 ## Description
-This Team Profile Generator outputs an HTML page of team members' information in convenient and organized profile cards. The Team Profile Generator runs in the command line and is simple to use. It presents the user with some simple questions about their team members, and displays that information on a pre-fabricated layout on an HTML page. Developing this Team Profile Generator gave me exposure to some new types of programming, includind more uses of working with Node in the command line, and using multiple .js files, and testing-driven development.
+This Team Profile Generator outputs an HTML page of team members' information in convenient and organized profile cards. The Team Profile Generator runs in the command line and is simple to use. It presents the user with some simple questions about their team members, and displays that information on a pre-fabricated layout on an HTML page. Developing this Team Profile Generator gave me exposure to some new types of programming, includind more uses of working with Node in the command line, and using multiple .js files, and test-driven development.
       
 
 ## Technologies Used
