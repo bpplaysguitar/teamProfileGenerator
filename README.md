@@ -57,9 +57,10 @@ git clone https://github.com/bpplaysguitar/teamProfileGenerator.git,
       
 
 ## Usage
-Video of application in use
+Screenshot and video of application in use
+![teamProfileGenerator](/images/teamProfileGenerator.png)
+<a href="https://drive.google.com/file/d/1321lo9jdDESyWruCeNHjcHoGP34CW7We">Watch Walkthrough Video</a>
 
-[![teamProfileGenerator](https://drive.google.com/file/d/1eiCGoFwITTubD4DIDvLHDy0CLsAW8-v8/view?usp=sharing)](https://drive.google.com/file/d/1321lo9jdDESyWruCeNHjcHoGP34CW7We)
       
 ## Credits
 Professional README guide template provided by Coding Boot Camp. https://github.com/coding-boot-camp
